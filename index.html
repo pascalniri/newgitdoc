@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://kit.fontawesome.com/e83290a517.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com
+/css2?family=Nunito:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500
+;600&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+   <div class="all">
+    <h1>Are You Really Adult?</h1>
+    <p>Fill the form to get answer!</p>
+    <div class="form">
+
+       <div class="input">
+        
+            <input type="number" name="" id="day">
+           
+            
+                <input type="number" name="" id="month">
+            
+            
+                <input type="number" name="" id="year">
+        
+       </div>
+        <div class="sub">
+            <input type="submit" value="Get Result">
+        </div>
+    </div>
+   </div>
+
+   <script>
+    const myDay = document.getElementById('day');
+    const myMonth = document.getElementById('month');
+    const myYear = document.getElementById('year');
+    
+      async function getYears(){
+          let minNum = 1;
+          if (myDay === 1) {
+            console.log('You are adult');
+          }
+      }
+      searchBtn.addEventListener('click', () =>{
+        getWeather(searchInput.value);
+       });
+   </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.form{
+    background: linear-gradient(rgb(0, 0, 0), rgb(102, 102, 102));
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.input{
+    display: flex;
+    
+}
+#month{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.input input{
+    height: 80px;
+    width: 100px;
+    overflow: hidden;
+    outline: none;
+    margin-top: 100px;
+}
+.sub input{
+    margin-top: 50px;
+    width: 400px;
+    height: 40px;
+    outline: none;
+    overflow: hidden;
+    border: none;
+}
+.sub input:hover{
+    background-color: rgb(102, 102, 102);
+    color: white;
+    transition: .5s;
+}
